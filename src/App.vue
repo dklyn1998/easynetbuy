@@ -81,7 +81,7 @@
               <el-menu-item index="1-3-1">酒品饮料</el-menu-item>
               <el-menu-item index="1-3-2">休闲零食</el-menu-item>
               <el-menu-item index="1-3-3">生鲜</el-menu-item>
-              <el-menu-item index="1-3-4">冲饮/乳品</el-menu-item>
+              <el-menu-item index="1-3-4">冲饮/乳品</el-menu-item>          
             </el-submenu>
             <el-submenu index="1-4">
               <template slot="title">母婴</template>
@@ -91,13 +91,25 @@
               <el-menu-item index="1-4-4">营养辅食</el-menu-item>
             </el-submenu>
             <el-submenu index="1-5">
-              <template slot="title">母婴</template>
-              <el-menu-item index="1-4-1">童装童鞋</el-menu-item>
-              <el-menu-item index="1-4-2">婴儿必备</el-menu-item>
-              <el-menu-item index="1-4-3">玩具图书</el-menu-item>
-              <el-menu-item index="1-4-4">营养辅食</el-menu-item>
+              <template slot="title">男装</template>
+              <el-menu-item index="1-5-1">外套</el-menu-item>
+              <el-menu-item index="1-5-2">上衣裤子</el-menu-item>
+              <el-menu-item index="1-5-3">玩具图书</el-menu-item>
             </el-submenu>
-          </el-submenu>
+          <el-submenu index="1-6">
+              <template slot="title">箱包</template>
+              <el-menu-item index="1-6-1">畅销热卖</el-menu-item>
+              <el-menu-item index="1-6-2">迷你美包</el-menu-item>
+              <el-menu-item index="1-6-3">人气精选</el-menu-item>
+              <el-menu-item index="1-6-4">行李箱包</el-menu-item>
+            </el-submenu>
+            <el-submenu index="1-7">
+              <template slot="title">美妆</template>
+              <el-menu-item index="1-7-1">日常护肤</el-menu-item>
+              <el-menu-item index="1-7-2">时尚彩妆</el-menu-item>
+              <el-menu-item index="1-7-3">防晒卸妆</el-menu-item>
+              <el-menu-item index="1-7-4">迷迭香水</el-menu-item>
+            </el-submenu>
         </el-menu>
       </el-header>
       <el-main>
