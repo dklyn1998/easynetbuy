@@ -239,8 +239,132 @@
       </div>
       <div class="discount_info">
         <div class="discount_info_goods">
-          
+          <div class="discount_info_goods_img">
+            <img src="../assets/image/Home/bao.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >包包</span
+            >
+          </div>
+
+          <div class="money_miaosha">
+            <span>￥128.00</span><span>1天5秒</span>
+          </div>
+          <a href="">立刻秒杀</a>
         </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../assets/image/Home/bao.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >包包</span
+            >
+          </div>
+
+          <div class="money_miaosha">
+            <span>￥128.00</span><span>1天5秒</span>
+          </div>
+          <a href="">立刻秒杀</a>
+        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../assets/image/Home/bao.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >包包</span
+            >
+          </div>
+
+          <div class="money_miaosha">
+            <span>￥128.00</span><span>1天5秒</span>
+          </div>
+          <a href="">立刻秒杀</a>
+        </div>
+      </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div class="you_like_img">
+      <div class="you_like">
+        <div class="you_like_left">
+          <div class="you_like_left_title">
+            <h2>猜你喜欢</h2>
+            <span>总有你喜欢的</span>
+            <a href="">更多 >></a>
+          </div>
+          <div class="you_like_left_goods">
+            <div class="you_like_left_goods_info">
+              <div><img src="../assets/image/Home/kuzi.jpg" alt="" /></div>
+              <span class="you_like_left_goods_info_title"
+                >潮流修身男士休闲裤</span
+              >
+              <span class="you_like_left_goods_info_into"
+                >范爷推荐的急救水光炸弹</span
+              >
+              <span class="you_like_left_goods_info_money"
+                >原价：
+                <h3>￥ 158</h3></span
+              >
+            </div>
+            <div class="you_like_left_goods_info">
+              <div><img src="../assets/image/Home/kuzi.jpg" alt="" /></div>
+              <span class="you_like_left_goods_info_title"
+                >潮流修身男士休闲裤</span
+              >
+              <span class="you_like_left_goods_info_into"
+                >范爷推荐的急救水光炸弹</span
+              >
+              <span class="you_like_left_goods_info_money"
+                >原价：
+                <h3>￥ 158</h3></span
+              >
+            </div>
+            <div class="you_like_left_goods_info">
+              <div><img src="../assets/image/Home/kuzi.jpg" alt="" /></div>
+              <span class="you_like_left_goods_info_title"
+                >潮流修身男士休闲裤</span
+              >
+              <span class="you_like_left_goods_info_into"
+                >范爷推荐的急救水光炸弹</span
+              >
+              <span class="you_like_left_goods_info_money"
+                >原价：
+                <h3>￥ 158</h3></span
+              >
+            </div>
+            <div class="you_like_left_goods_info">
+              <div><img src="../assets/image/Home/kuzi.jpg" alt="" /></div>
+              <span class="you_like_left_goods_info_title"
+                >潮流修身男士休闲裤</span
+              >
+              <span class="you_like_left_goods_info_into"
+                >范爷推荐的急救水光炸弹</span
+              >
+              <span class="you_like_left_goods_info_money"
+                >原价：
+                <h3>￥ 158</h3></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="you_like_right"
+        ><img src="../assets/image/Home/cainixihuan.png" alt=""
+      /></a>
+    </div>
+    <!-- 下方信息栏 -->
+    <div class="promise">
+      <div class="promise_info">
+        <img src="../assets/image/Home/zhengpin.png" alt="" />
+        <span>正品保障</span>
+      </div>
+      <div class="promise_info">
+        <img src="../assets/image/Home/fahuo.png" alt="" />
+        <span>极速发货</span>
+      </div>
+      <div class="promise_info">
+        <img src="../assets/image/Home/rangli.png" alt="" />
+        <span>低价让利</span>
+      </div>
+      <div class="promise_info">
+        <img src="../assets/image/Home/shouhou.png" alt="" />
+        <span>售后保障</span>
       </div>
     </div>
   </div>
@@ -487,18 +611,150 @@ export default {};
   margin: 0 auto;
   min-width: 1000px;
   border: 1px solid #ccc;
+  padding-bottom: 30px;
   .discount_title {
     display: flex;
     align-items: center;
-    width: 80%;
-    min-width: 1000px;
-    margin: 0 auto;
+    margin-left: 30px;
     h2 {
       color: #0f91a0;
     }
     span {
       font-size: 16px;
       margin-left: 30px;
+    }
+  }
+  .discount_info {
+    display: flex;
+    justify-content: space-around;
+    .discount_info_goods {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      flex-direction: column;
+      .discount_info_goods_img {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        .discount_info_goods_name {
+          display: block;
+          background-color: rgba(255, 255, 255, 0.3);
+          position: absolute;
+          bottom: 5px;
+          left: 0;
+          right: 0;
+          color: #0f91a0;
+        }
+      }
+      .money_miaosha {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #efefef;
+        height: 30px;
+        padding: 10px;
+        :first-child {
+          font-size: 20px;
+          color: #ff7800;
+        }
+        :last-child {
+          font-size: 12px;
+          color: #666;
+        }
+      }
+    }
+    a {
+      color: #fff;
+      font-size: 18px;
+      background-color: #2ec6ce;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+    }
+  }
+}
+// 猜你喜欢
+.you_like_img {
+  display: flex;
+  width: 80%;
+  min-width: 1000px;
+  margin: 30px auto;
+  a {
+    img {
+      height: 100%;
+    }
+  }
+}
+.you_like {
+  border: 1px solid #ccc;
+  padding-bottom: 30px;
+  margin-right: 20px;
+  .you_like_left {
+    position: relative;
+    .you_like_left_title {
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+      h2 {
+        color: #ff3366;
+      }
+      span {
+        margin-left: 30px;
+      }
+      a {
+        position: absolute;
+        right: 20px;
+      }
+    }
+    .you_like_left_goods {
+      display: flex;
+      justify-content: space-around;
+      .you_like_left_goods_info {
+        display: flex;
+        flex: 0.8;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 10px;
+        img {
+          width: 100%;
+        }
+        .you_like_left_goods_info_title {
+          font-size: 16px;
+          color: #000;
+        }
+        .you_like_left_goods_info_into {
+          font-size: 12px;
+          color: #666;
+        }
+        .you_like_left_goods_info_money {
+          font-size: 14px;
+          color: #888;
+          display: flex;
+          align-items: center;
+          h3 {
+            color: #ff3366;
+            font-size: 22px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+// 下方信息栏
+.promise {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  min-width: 1000px;
+  margin: 30px auto;
+  .promise_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span {
+      margin-top: 15px;
     }
   }
 }
