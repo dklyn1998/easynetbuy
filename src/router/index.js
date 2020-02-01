@@ -2,6 +2,33 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Recommend from '../views/Recommend.vue'
+import Life from '../views/Life.vue'
+import Hot from '../views/Hot.vue'
+import Discount from '../views/Discount.vue'
+import About from '../views/About.vue'
+import shoubiao from '../components/shoubiao.vue'
+import xijiejing from '../components/xijiejing.vue'
+import jierouzhijin from '../components/jierouzhijin.vue'
+import qingyangxifashui from '../components/qingyangxifashui.vue'
+import xiangshuimuyulu from '../components/xiangshuimuyulu'
+import shentimoshagao from '../components/shentimoshagao'
+import fangtuofaxifashui from '../components/fangtuofaxifashui'
+import shuixingzhijiayou from '../components/shuixingzhijiayou'
+import maoyanjiao from '../components/maoyanjiao'
+import mantianxingshoubiao from '../components/mantianxingshoubiao'
+import huazhuangshua from '../components/huazhuangshua'
+import dwshoubiao from '../components/dwshoubiao'
+import dwshouzhuo from '../components/dwshouzhuo'
+import tangbobaiqibao from '../components/tangbobaiqibao'
+import kouchi from '../components/kouchi'
+import yuganyou from '../components/yuganyou'
+import feilekuzi from '../components/feilekuzi'
+import theroxizhuang from '../components/theroxizhuang'
+import liweisiniuzaiyi from '../components/liweisiniuzaiyi'
+import xierdunzhentou from '../components/xierdunzhentou'
+import sijiantao from '../components/sijiantao'
+import shukoushui from '../components/shukoushui'
+import shuanglirendaoju from '../components/shuanglirendaoju'
 
 Vue.use(VueRouter)
 
@@ -16,18 +43,146 @@ const routes = [
     name: 'recommend',
     component: Recommend
   },
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
+  {
+    path: '/life',
+    name: 'life',
+    component: Life
+  },
+  {
+    path: '/hot',
+    name: 'hot',
+    component: Hot
+  },
+  {
+    path: '/discount',
+    name: 'discount',
+    component: Discount
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: About
+  },
+  {
+    path: '/shoubiao',
+    name: 'shoubiao',
+    component: shoubiao
+  },
+  {
+    path: '/xijiejing',
+    name: 'xijiejing',
+    component: xijiejing
+  },
+  {
+    path: '/jierouzhijin',
+    name: 'jierouzhijin',
+    component: jierouzhijin
+  },
+  {
+    path: '/qingyangxifashui',
+    name: 'qingyangxifashui',
+    component: qingyangxifashui
+  },
+  {
+    path: '/xiangshuimuyulu',
+    name: 'xiangshuimuyulu',
+    component: xiangshuimuyulu
+  },
+  {
+    path: '/shentimoshagao',
+    name: 'shentimoshagao',
+    component: shentimoshagao
+  },
+  {
+    path: '/fangtuofaxifashui',
+    name: 'fangtuofaxifashui',
+    component: fangtuofaxifashui
+  },
+  {
+    path: '/shuixingzhijiayou',
+    name: 'shuixingzhijiayou',
+    component: shuixingzhijiayou
+  },
+  {
+    path: '/maoyanjiao',
+    name: 'maoyanjiao',
+    component: maoyanjiao
+  },
+  {
+    path: '/mantianxingshoubiao',
+    name: 'mantianxingshoubiao',
+    component: mantianxingshoubiao
+  },
+  {
+    path: '/huazhuangshua',
+    name: 'huazhuangshua',
+    component: huazhuangshua
+  },
+  {
+    path: '/dwshoubiao',
+    name: 'dwshoubiao',
+    component: dwshoubiao
+  },
+  {
+    path: '/dwshouzhuo',
+    name: 'dwshouzhuo',
+    component: dwshouzhuo
+  },
+  {
+    path: '/tangbobaiqibao',
+    name: 'tangbobaiqibao',
+    component: tangbobaiqibao
+  },
+  {
+    path: '/kouchi',
+    name: 'kouchi',
+    component: kouchi
+  },
+  {
+    path: '/yuganyou',
+    name: 'yuganyou',
+    component: yuganyou
+  },
+  {
+    path: '/feilekuzi',
+    name: 'feilekuzi',
+    component: feilekuzi
+  },
+  {
+    path: '/theroxizhuang',
+    name: 'theroxizhuang',
+    component: theroxizhuang
+  },
+  {
+    path: '/liweisiniuzaiyi',
+    name: 'liweisiniuzaiyi',
+    component: liweisiniuzaiyi
+  },
+  {
+    path: '/xierdunzhentou',
+    name: 'xierdunzhentou',
+    component: xierdunzhentou
+  },
+  {
+    path: '/sijiantao',
+    name: 'sijiantao',
+    component: sijiantao
+  },
+  {
+    path: '/shukoushui',
+    name: 'shukoushui',
+    component: shukoushui
+  },
+  {
+    path: '/shuanglirendaoju',
+    name: 'shuanglirendaoju',
+    component: shuanglirendaoju
+  },
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history',
 })
 
 export default router

@@ -11,6 +11,7 @@ import './assets/font//HomeFont/iconfont.css'
 
 Vue.config.productionTip = false
 
+
 new Vue({
   router, 
   store,
