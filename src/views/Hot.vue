@@ -34,60 +34,60 @@
         <span>大牌精选  推荐单品</span>
       </div>
       <div class="recommend_goods">
-        <div class="recommend_goods_info">
-          <div><img src="../assets/image/Recommend/shoubiao.png" alt="" /></div>
-          <span class="recommend_goods_info_title">星空手表</span>
-          <span class="recommend_goods_info_into">范爷推荐的急救水光炸弹</span>
+        <a class="recommend_goods_info" href="niuzaiwaitaonv">
+          <div><img src="../components/niuzaiwaitaonv/niuzaiwaitaonv.jpg" alt="" /></div>
+          <span class="recommend_goods_info_title">百搭牛仔拼接短外套</span>
+          <span class="recommend_goods_info_into">青城虎爷专卖店</span>
           <span class="recommend_goods_info_money"
             >原价：
-            <h3>￥ 788</h3></span
+            <h3>￥ 149.00</h3></span
           >
-        </div>
-        <div class="recommend_goods_info">
-          <div><img src="../assets/image/Recommend/shoubiao.png" alt="" /></div>
-          <span class="recommend_goods_info_title">星空手表</span>
-          <span class="recommend_goods_info_into">范爷推荐的急救水光炸弹</span>
+        </a>
+        <a class="recommend_goods_info" href="liweisiniuzaiyi">
+          <div><img src="../components/liweisiniuzaiyi/liweisiniuzaiyi.jpg" alt="" /></div>
+          <span class="recommend_goods_info_title">Levi's李维斯翻领纯色牛仔</span>
+          <span class="recommend_goods_info_into">青城虎爷专卖店</span>
           <span class="recommend_goods_info_money"
             >原价：
-            <h3>￥ 788</h3></span
+            <h3>￥ 599.00</h3></span
           >
-        </div>
-        <div class="recommend_goods_info">
-          <div><img src="../assets/image/Recommend/shoubiao.png" alt="" /></div>
-          <span class="recommend_goods_info_title">星空手表</span>
-          <span class="recommend_goods_info_into">范爷推荐的急救水光炸弹</span>
+        </a>
+        <a class="recommend_goods_info" href="lianyiqun">
+          <div><img src="../components/lianyiqun/lianyiqun.jpg" alt="" /></div>
+          <span class="recommend_goods_info_title">ins网红风仙女蕾丝连衣裙</span>
+          <span class="recommend_goods_info_into">青城虎爷专卖店</span>
           <span class="recommend_goods_info_money"
             >原价：
-            <h3>￥ 788</h3></span
+            <h3>￥ 749.00</h3></span
           >
-        </div>
-        <div class="recommend_goods_info">
-          <div><img src="../assets/image/Recommend/shoubiao.png" alt="" /></div>
-          <span class="recommend_goods_info_title">星空手表</span>
-          <span class="recommend_goods_info_into">范爷推荐的急救水光炸弹</span>
+        </a>
+        <a class="recommend_goods_info" href="fengyi">
+          <div><img src="../components/fengyi/fengyi.jpg" alt="" /></div>
+          <span class="recommend_goods_info_title">新款女装格纹系带长款风衣</span>
+          <span class="recommend_goods_info_into">青城虎爷专卖店</span>
           <span class="recommend_goods_info_money"
             >原价：
-            <h3>￥ 788</h3></span
+            <h3>￥ 2710.00 </h3></span
           >
-        </div>
-        <div class="recommend_goods_info">
-          <div><img src="../assets/image/Recommend/shoubiao.png" alt="" /></div>
-          <span class="recommend_goods_info_title">星空手表</span>
-          <span class="recommend_goods_info_into">范爷推荐的急救水光炸弹</span>
+        </a>
+        <a class="recommend_goods_info" href="chenshannv">
+          <div><img src="../components/chenshannv/chenshannv.jpg" alt="" /></div>
+          <span class="recommend_goods_info_title">拼接假两件衬衫上衣</span>
+          <span class="recommend_goods_info_into">青城虎爷专卖店</span>
           <span class="recommend_goods_info_money"
             >原价：
-            <h3>￥ 788</h3></span
+            <h3>￥ 852.00 </h3></span
           >
-        </div>
-        <div class="recommend_goods_info">
-          <div><img src="../assets/image/Recommend/shoubiao.png" alt="" /></div>
-          <span class="recommend_goods_info_title">星空手表</span>
-          <span class="recommend_goods_info_into">范爷推荐的急救水光炸弹</span>
+        </a>
+        <a class="recommend_goods_info" href="pikunv">
+          <div><img src="../components/pikunv/pikunv.jpg" alt="" /></div>
+          <span class="recommend_goods_info_title">edition高腰绵羊皮皮裤</span>
+          <span class="recommend_goods_info_into">青城虎爷专卖店</span>
           <span class="recommend_goods_info_money"
             >原价：
-            <h3>￥ 788</h3></span
+            <h3>￥ 3599.00 </h3></span
           >
-        </div>
+        </a>
       </div>
     </div>
   </div>

@@ -29,6 +29,10 @@ import xierdunzhentou from '../components/xierdunzhentou'
 import sijiantao from '../components/sijiantao'
 import shukoushui from '../components/shukoushui'
 import shuanglirendaoju from '../components/shuanglirendaoju'
+import niuzaiwaitaonv from '../components/niuzaiwaitaonv'
+import lianyiqun from '../components/lianyiqun'
+import fengyi from '../components/fengyi'
+import chenshannv from '../components/chenshannv'
 
 Vue.use(VueRouter)
 
@@ -178,11 +182,36 @@ const routes = [
     name: 'shuanglirendaoju',
     component: shuanglirendaoju
   },
+  {
+    path: '/niuzaiwaitaonv',
+    name: 'niuzaiwaitaonv',
+    component: niuzaiwaitaonv
+  },
+  {
+    path: '/lianyiqun',
+    name: 'lianyiqun',
+    component: lianyiqun
+  },
+  {
+    path: '/fengyi',
+    name: 'fengyi',
+    component: fengyi
+  },
+  {
+    path: '/chenshannv',
+    name: 'chenshannv',
+    component: chenshannv
+  },
 ]
 
 const router = new VueRouter({
   routes,
-  mode: 'history',
+  mode:'history'
 })
-
+// router.beforeEach((to, from, next) => {
+  // if (to.path === '/login') return next()
+  // const tokenStr = window.sessionStorage.getItem('token')
+  // if (!tokenStr) return next('/login')
+  // next()
+// })
 export default router

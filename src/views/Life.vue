@@ -226,6 +226,7 @@ export default {
       width: 48%;
       border: 1px solid #ffd6e0;
       margin-bottom: 30px;
+      padding: 5px;
       .life_goods_info_img {
         width: 30%;
         display: flex;

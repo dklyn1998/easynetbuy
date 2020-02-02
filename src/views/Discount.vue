@@ -16,85 +16,85 @@
         <span>大牌精选 推荐单品</span>
       </div>
       <div class="discount_info">
-      <div class="discount_info_goods">
-        <div class="discount_info_goods_img">
-          <img src="../assets/image/Home/bao.jpg" alt="" /><span
-            class="discount_info_goods_name"
-            >包包</span
-          >
-        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../components/tangbobaiqibao/tangbobaiqibao.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >TORY BURCH 汤丽柏琦</span
+            >
+          </div>
 
-        <div class="money_miaosha">
-          <span>￥128.00</span><span>1天5秒</span>
+          <div class="money_miaosha">
+            <span>￥2950.00</span><span>1天5秒</span>
+          </div>
+          <a href="/tangbobaiqibao">立刻秒杀</a>
         </div>
-        <a href="">立刻秒杀</a>
-      </div>
-      <div class="discount_info_goods">
-        <div class="discount_info_goods_img">
-          <img src="../assets/image/Home/bao.jpg" alt="" /><span
-            class="discount_info_goods_name"
-            >包包</span
-          >
-        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../components/kouchi/kouchi.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >COACH蔻驰 TABBY</span
+            >
+          </div>
 
-        <div class="money_miaosha">
-          <span>￥128.00</span><span>1天5秒</span>
+          <div class="money_miaosha">
+            <span>￥4500.00</span><span>1天5秒</span>
+          </div>
+          <a href="/kouchi">立刻秒杀</a>
         </div>
-        <a href="">立刻秒杀</a>
-      </div>
-      <div class="discount_info_goods">
-        <div class="discount_info_goods_img">
-          <img src="../assets/image/Home/bao.jpg" alt="" /><span
-            class="discount_info_goods_name"
-            >包包</span
-          >
-        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../components/yuganyou/yuganyou.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >bio island澳洲进口婴幼儿童鳕鱼肝油</span
+            >
+          </div>
 
-        <div class="money_miaosha">
-          <span>￥128.00</span><span>1天5秒</span>
+          <div class="money_miaosha">
+            <span>￥ 278.00</span><span>1天5秒</span>
+          </div>
+          <a href="/yuganyou">立刻秒杀</a>
         </div>
-        <a href="">立刻秒杀</a>
-      </div>
-      <div class="discount_info_goods">
-        <div class="discount_info_goods_img">
-          <img src="../assets/image/Home/bao.jpg" alt="" /><span
-            class="discount_info_goods_name"
-            >包包</span
-          >
-        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../components/mantianxingshoubiao/mantianxingshoubiao.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >Armani阿玛尼满天星女表</span
+            >
+          </div>
 
-        <div class="money_miaosha">
-          <span>￥128.00</span><span>1天5秒</span>
+          <div class="money_miaosha">
+            <span>￥2999.00</span><span>1天5秒</span>
+          </div>
+          <a href="/mantianxingshoubiao">立刻秒杀</a>
         </div>
-        <a href="">立刻秒杀</a>
-      </div>
-      <div class="discount_info_goods">
-        <div class="discount_info_goods_img">
-          <img src="../assets/image/Home/bao.jpg" alt="" /><span
-            class="discount_info_goods_name"
-            >包包</span
-          >
-        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../components/dwshoubiao/dwshoubiao.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >Daniel Wellington男女dw手表</span
+            >
+          </div>
 
-        <div class="money_miaosha">
-          <span>￥128.00</span><span>1天5秒</span>
+          <div class="money_miaosha">
+            <span>￥2799.00</span><span>1天5秒</span>
+          </div>
+          <a href="/dwshoubiao">立刻秒杀</a>
         </div>
-        <a href="">立刻秒杀</a>
-      </div>
-      <div class="discount_info_goods">
-        <div class="discount_info_goods_img">
-          <img src="../assets/image/Home/bao.jpg" alt="" /><span
-            class="discount_info_goods_name"
-            >包包</span
-          >
-        </div>
+        <div class="discount_info_goods">
+          <div class="discount_info_goods_img">
+            <img src="../components/dwshouzhuo/dwshouzhuo.jpg" alt="" /><span
+              class="discount_info_goods_name"
+              >丹尼尔惠灵顿dw情侣手镯</span
+            >
+          </div>
 
-        <div class="money_miaosha">
-          <span>￥128.00</span><span>1天5秒</span>
+          <div class="money_miaosha">
+            <span>￥ 589.00</span><span>1天5秒</span>
+          </div>
+          <a href="/dwshouzhuo">立刻秒杀</a>
         </div>
-        <a href="">立刻秒杀</a>
       </div>
-    </div>
     </div>
     
   </div>
@@ -163,6 +163,7 @@ export default {};
       justify-content: space-between;
       width: 30%;
       flex-direction: column;
+      margin-bottom: 30px;
       .discount_info_goods_img {
         position: relative;
         img {

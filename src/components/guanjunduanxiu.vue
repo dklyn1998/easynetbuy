@@ -49,12 +49,12 @@
       <div class="recommend">
         <span>——— 看了还看 ———</span>
         <div class="recommend_goods">
-          <img src="./shoubiao/shoubiao.png" alt="" />
-          <div><span>手表</span> <span>价格：￥52.9</span></div>
+          <img src="./dwshoubiao/dwshoubiao.jpg" alt="" />
+          <div><span>DW手表</span> <span>价格：￥2799.00</span></div>
         </div>
         <div class="recommend_goods">
-          <img src="./shoubiao/shoubiao.png" alt="" />
-          <div><span>手表</span> <span>价格：￥52.9</span></div>
+          <img src="./dwshouzhuo/dwshouzhuo.jpg" alt="" />
+          <div><span>dw手镯</span> <span>价格：￥589.00</span></div>
         </div>
       </div>
     </div>
@@ -65,27 +65,27 @@
           <span>热销榜</span>
         </div>
         <div class="next_info_left_goods">
-          <div><img src="./shoubiao/kuzi.jpg" alt="" /></div>
+          <div><img src="./jierouzhijin/jierouzhijin.jpg" alt="" /></div>
           <div class="next_info_left_goods_msg">
-            <span>潮流修身男士休闲裤</span> <span>￥ 158 </span>
+            <span>洁柔纸巾</span> <span>￥ 158 </span>
           </div>
         </div>
         <div class="next_info_left_goods">
-          <div><img src="./shoubiao/kuzi.jpg" alt="" /></div>
+          <div><img src="./sijiantao/sijiantao.jpg" alt="" /></div>
           <div class="next_info_left_goods_msg">
-            <span>潮流修身男士休闲裤</span> <span>￥ 158 </span>
+            <span>窗扇四件套</span> <span>￥ 88 </span>
           </div>
         </div>
         <div class="next_info_left_goods">
-          <div><img src="./shoubiao/kuzi.jpg" alt="" /></div>
+          <div><img src="./fengyi/fengyi.jpg" alt="" /></div>
           <div class="next_info_left_goods_msg">
-            <span>潮流修身男士休闲裤</span> <span>￥ 158 </span>
+            <span>女风衣</span> <span>￥ 998 </span>
           </div>
         </div>
         <div class="next_info_left_goods">
-          <div><img src="./shoubiao/kuzi.jpg" alt="" /></div>
+          <div><img src="./pikunv/pikunv.jpg" alt="" /></div>
           <div class="next_info_left_goods_msg">
-            <span>潮流修身男士休闲裤</span> <span>￥ 158 </span>
+            <span>皮裤</span> <span>￥ 2799 </span>
           </div>
         </div>
       </div>
@@ -93,6 +93,9 @@
         <el-tabs type="border-card">
           <el-tab-pane label="商品详情" class="remark"
             ><img src="./guanjunduanxiu/xiangqing1.jpg" alt=""
+          /><img src="./guanjunduanxiu/xiangqing2.jpg" alt=""
+          /><img src="./guanjunduanxiu/xiangqing3.jpg" alt=""
+          /><img src="./guanjunduanxiu/xiangqing4.jpg" alt=""
           /></el-tab-pane>
           <el-tab-pane label="评论" class="common">
             <div class="common_box">
