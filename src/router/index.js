@@ -34,6 +34,7 @@ import lianyiqun from '../components/lianyiqun'
 import fengyi from '../components/fengyi'
 import chenshannv from '../components/chenshannv'
 
+
 Vue.use(VueRouter)
 
 const routes = [

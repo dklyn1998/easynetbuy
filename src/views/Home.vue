@@ -681,11 +681,11 @@ export default {};
   width: 80%;
   min-width: 1000px;
   margin: 30px auto;
-  a {
-    img {
-      height: 100%;
-    }
-  }
+  // a {
+  //   // img {
+  //   //   height: 100%;
+  //   // }
+  // }
   .you_like {
   border: 1px solid #ccc;
   padding-bottom: 30px;
@@ -744,10 +744,10 @@ export default {};
 }
 .you_like_right{
   // flex: 1;
-  width: 80%;
-  img{
-    width: 100%;
-  }
+  // width: 80%;
+  // img{
+  //   width: 100%;
+  // }
 }
 }
 
