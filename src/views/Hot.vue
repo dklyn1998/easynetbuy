@@ -34,7 +34,7 @@
         <span>大牌精选  推荐单品</span>
       </div>
       <div class="recommend_goods">
-        <a class="recommend_goods_info" href="niuzaiwaitaonv">
+        <router-link class="recommend_goods_info" to="niuzaiwaitaonv">
           <div><img src="../components/niuzaiwaitaonv/niuzaiwaitaonv.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">百搭牛仔拼接短外套</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -42,8 +42,8 @@
             >原价：
             <h3>￥ 149.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="liweisiniuzaiyi">
+        </router-link>
+        <router-link class="recommend_goods_info" to="liweisiniuzaiyi">
           <div><img src="../components/liweisiniuzaiyi/liweisiniuzaiyi.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">Levi's李维斯翻领纯色牛仔</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -51,8 +51,8 @@
             >原价：
             <h3>￥ 599.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="lianyiqun">
+        </router-link>
+        <router-link class="recommend_goods_info" to="lianyiqun">
           <div><img src="../components/lianyiqun/lianyiqun.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">ins网红风仙女蕾丝连衣裙</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -60,8 +60,8 @@
             >原价：
             <h3>￥ 749.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="fengyi">
+        </router-link>
+        <router-link class="recommend_goods_info" to="fengyi">
           <div><img src="../components/fengyi/fengyi.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">新款女装格纹系带长款风衣</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -69,8 +69,8 @@
             >原价：
             <h3>￥ 2710.00 </h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="chenshannv">
+        </router-link>
+        <router-link class="recommend_goods_info" to="chenshannv">
           <div><img src="../components/chenshannv/chenshannv.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">拼接假两件衬衫上衣</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -78,8 +78,8 @@
             >原价：
             <h3>￥ 852.00 </h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="pikunv">
+        </router-link>
+        <router-link class="recommend_goods_info" to="pikunv">
           <div><img src="../components/pikunv/pikunv.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">edition高腰绵羊皮皮裤</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -87,7 +87,7 @@
             >原价：
             <h3>￥ 3599.00 </h3></span
           >
-        </a>
+        </router-link>
       </div>
     </div>
   </div>

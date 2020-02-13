@@ -39,8 +39,8 @@
           <span>剩余库存 5000</span>
         </div>
         <div class="button_box">
-          <div class="left_btn">立即购买</div>
-          <div class="right_btn">加入购物车</div>
+          <div  @click="open2" class="left_btn">立即购买</div>
+          <div  @click="open1" class="right_btn">加入购物车</div>
         </div>
         <span class="top_info_shop_promise"
           >服务承诺：正品保证 极速退款 赠运费险 七天无理由退换</span
@@ -175,6 +175,18 @@ export default {
     };
   },
   methods: {
+    open1() {
+        this.$message({
+          message: '加入购物车成功',
+          type: 'success'
+        });
+      },
+    open2() {
+        this.$message({
+          message: '购买成功',
+          type: 'success'
+        });
+      },
     handleChange: function() {
       console.log("123");
     }

@@ -15,7 +15,7 @@
         <span>精选好物 推荐单品</span>
       </div>
       <div class="recommend_goods">
-        <a class="recommend_goods_info" href="mantianxingshoubiao">
+        <router-link class="recommend_goods_info" to="/mantianxingshoubiao">
           <div><img src="../components/mantianxingshoubiao/mantianxingshoubiao.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">Armani阿玛尼满天星女表</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -23,8 +23,8 @@
             >原价：
             <h3>￥ 2999.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="jierouzhijin">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/jierouzhijin">
           <div><img src="../components/jierouzhijin/jierouzhijin.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">洁柔抽纸 Face系列</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -32,8 +32,8 @@
             >原价：
             <h3>￥ 36</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="xiangshuimuyulu">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/xiangshuimuyulu">
           <div><img src="../components/xiangshuimuyulu/xiangshuimuyulu.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">LG菲诗小铺浪漫邂逅香水沐浴露</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -41,8 +41,8 @@
             >原价：
             <h3>￥ 35</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="fangtuofaxifashui">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/fangtuofaxifashui">
           <div><img src="../components/fangtuofaxifashui/fangtuofaxifashui.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">吕黄吕防脱乌发固发滋养洗发水</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -50,8 +50,8 @@
             >原价：
             <h3>￥ 185.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="dwshoubiao">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/dwshoubiao">
           <div><img src="../components/dwshoubiao/dwshoubiao.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">DW手表情侣对表</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -59,8 +59,8 @@
             >原价：
             <h3>￥ 2799.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="dwshouzhuo">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/dwshouzhuo">
           <div><img src="../components/dwshouzhuo/dwshouzhuo.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">dw情侣手镯</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -68,7 +68,7 @@
             >原价：
             <h3>￥ 589.00</h3></span
           >
-        </a>
+        </router-link>
         
       </div>
     </div>
@@ -79,7 +79,7 @@
         <span>大牌服饰  推荐单品</span>
       </div>
       <div class="recommend_goods">
-        <a class="recommend_goods_info" href="shentimoshagao">
+        <router-link class="recommend_goods_info" to="/shentimoshagao">
           <div><img src="../components/shentimoshagao/shentimoshagao.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">Oh Baby身体磨砂膏</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -87,8 +87,8 @@
             >原价：
             <h3>￥ 125.00</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="maoyanjiao">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/maoyanjiao">
           <div><img src="../components/maoyanjiao/maoyanjiao.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">猫眼胶指甲油</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -96,8 +96,8 @@
             >原价：
             <h3>￥ 19.80</h3></span
           >
-        </a>
-        <a class="recommend_goods_info" href="shuixingzhijiayou">
+        </router-link>
+        <router-link class="recommend_goods_info" to="/shuixingzhijiayou">
           <div><img src="../components/shuixingzhijiayou/shuixingzhijiayou.jpg" alt="" /></div>
           <span class="recommend_goods_info_title">可撕拉指甲油</span>
           <span class="recommend_goods_info_into">青城虎爷专卖店</span>
@@ -105,7 +105,7 @@
             >原价：
             <h3>￥ 21.90-36.90 </h3></span
           >
-        </a>
+        </router-link>
         
       </div>
     </div>

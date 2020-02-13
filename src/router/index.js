@@ -33,6 +33,8 @@ import niuzaiwaitaonv from '../components/niuzaiwaitaonv'
 import lianyiqun from '../components/lianyiqun'
 import fengyi from '../components/fengyi'
 import chenshannv from '../components/chenshannv'
+import guanjunduanxiu from '../components/guanjunduanxiu'
+import pikunv from '../components/pikunv'
 
 
 Vue.use(VueRouter)
@@ -202,6 +204,16 @@ const routes = [
     path: '/chenshannv',
     name: 'chenshannv',
     component: chenshannv
+  },
+  {
+    path: '/guanjunduanxiu',
+    name: 'guanjunduanxiu',
+    component: guanjunduanxiu
+  },
+  {
+    path: '/pikunv',
+    name: 'pikunv',
+    component: pikunv
   },
 ]
 

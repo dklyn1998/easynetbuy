@@ -27,7 +27,7 @@
           <div class="money_miaosha">
             <span>￥2950.00</span><span>1天5秒</span>
           </div>
-          <a href="/tangbobaiqibao">立刻秒杀</a>
+          <router-link to="/tangbobaiqibao">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -40,7 +40,7 @@
           <div class="money_miaosha">
             <span>￥4500.00</span><span>1天5秒</span>
           </div>
-          <a href="/kouchi">立刻秒杀</a>
+          <router-link to="/kouchi">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -53,7 +53,7 @@
           <div class="money_miaosha">
             <span>￥ 278.00</span><span>1天5秒</span>
           </div>
-          <a href="/yuganyou">立刻秒杀</a>
+          <router-link to="/yuganyou">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -66,7 +66,7 @@
           <div class="money_miaosha">
             <span>￥2999.00</span><span>1天5秒</span>
           </div>
-          <a href="/mantianxingshoubiao">立刻秒杀</a>
+          <router-link to="/mantianxingshoubiao">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -79,7 +79,7 @@
           <div class="money_miaosha">
             <span>￥2799.00</span><span>1天5秒</span>
           </div>
-          <a href="/dwshoubiao">立刻秒杀</a>
+          <router-link to="/dwshoubiao">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -92,7 +92,7 @@
           <div class="money_miaosha">
             <span>￥ 589.00</span><span>1天5秒</span>
           </div>
-          <a href="/dwshouzhuo">立刻秒杀</a>
+          <router-link to="/dwshouzhuo">立刻秒杀</router-link>
         </div>
       </div>
     </div>

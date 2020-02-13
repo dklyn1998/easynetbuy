@@ -13,8 +13,8 @@
             <el-link :underline="false" type="info" href="/">首页</el-link>
           </el-col>
           <el-col :span="3.5" class="col_list">
-            <el-link :underline="false" type="info" href="/about"
-              >关于我们</el-link
+            <router-link  to="about" class="routercolor"
+              >关于我们</router-link
             >
           </el-col>
           <el-col :span="3.5" class="col_list">
@@ -61,7 +61,7 @@
           </el-form>
           <div slot="footer" class="dialog-footer">
             <el-button @click="dialogLogVisible = false">取 消</el-button>
-            <el-button type="primary" @click="dialogLogVisible = false"
+            <el-button type="primary" @click="login"
               >登 录</el-button
             >
           </div>
@@ -83,8 +83,8 @@
           </el-form>
           <div slot="footer" class="dialog-footer">
             <el-button @click="dialogRegVisible = false">取 消</el-button>
-            <el-button type="primary" @click="dialogRegVisible = false"
-              >登 录</el-button
+            <el-button type="primary" @click="regclick"
+              >注 册</el-button
             >
           </div>
         </el-dialog>
@@ -135,7 +135,7 @@
               clearable
             >
             </el-input>
-            <el-button type="danger" round class="button_search"
+            <el-button type="danger" round class="button_search" @click="serachItem"
               >搜索</el-button
             >
           </el-col>
@@ -323,12 +323,35 @@ export default {
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
-    }
+    },
+    login(){
+      this.$message({
+          message: '登录成功',
+          type: 'success'
+        });
+        this.dialogLogVisible=false
+    },
+    regclick(){
+      this.$message({
+          message: '注册成功',
+          type: 'success'
+        });
+        this.dialogRegVisible=false
+    },
+    serachItem(){
+      this.$message({
+          message: '搜索成功~！',
+          type: 'success'
+        });
+    },
   }
 }
 </script>
 
 <style scoped>
+  .routercolor{
+    color: gray;
+  }
 .el-header {
   padding: 0 10px;
 }

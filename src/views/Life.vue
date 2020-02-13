@@ -50,7 +50,7 @@
         <span>精选好物 推荐单品</span>
       </div>
       <div class="life_goods">
-        <a class="life_goods_info" href="/xierdunzhentou">
+        <router-link class="life_goods_info" to="/xierdunzhentou">
           <div class="life_goods_info_img">
             <img src="..\components\xierdunzhentou\xierdunzhentou.png" alt="" />
           </div>
@@ -61,8 +61,8 @@
             <span>枕头</span>
             <a href="">立即抢购</a>
           </div>
-        </a>
-        <a class="life_goods_info" href="/sijiantao">
+        </router-link>
+        <router-link class="life_goods_info" to="/sijiantao">
           <div class="life_goods_info_img">
             <img src="../components/sijiantao/sijiantao.jpg" alt="" />
           </div>
@@ -73,8 +73,8 @@
             <span>床上四件套</span>
             <a href="">立即抢购</a>
           </div>
-        </a>
-        <a class="life_goods_info" href="/shukoushui">
+        </router-link>
+        <router-link class="life_goods_info" to="/shukoushui">
           <div class="life_goods_info_img">
             <img src="../components/shukoushui/shukoushui.jpg" alt="" />
           </div>
@@ -85,8 +85,8 @@
             <span>漱口水</span>
             <a href="">立即抢购</a>
           </div>
-        </a>
-        <a class="life_goods_info" href="/shuanglirendaoju">
+        </router-link>
+        <router-link class="life_goods_info" to="/shuanglirendaoju">
           <div class="life_goods_info_img">
             <img src="../components/shuanglirendaoju/shuanglirendaoju.jpg" alt="" />
           </div>
@@ -97,7 +97,7 @@
             <span>刀具</span>
             <a href="">立即抢购</a>
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>

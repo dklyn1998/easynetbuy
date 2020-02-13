@@ -109,7 +109,7 @@
           <a href="">更多 >></a>
         </div>
         <div class="spacial_area_life_info">
-          <a class="spacial_area_life_info_goods" href="/xijiejing">
+          <router-link class="spacial_area_life_info_goods" to="/xijiejing">
             <div><img src="../components/xijiejing/xijiejing.jpg" alt="" /></div>
 
             <span>超能洗洁精离子去油(柠檬护手)1.5kg/瓶不伤手新老包装随机发货</span>
@@ -118,8 +118,8 @@
               >原价：
               <h3>￥ 36</h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/jierouzhijin">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/jierouzhijin">
             <div><img src="../components/jierouzhijin/jierouzhijin.jpg" alt="" /></div>
             <span>洁柔抽纸 Face系列Face系列餐巾纸卫生纸3层120抽整箱40包</span>
             <span>青城虎爷专卖店</span>
@@ -127,8 +127,8 @@
               >原价：
               <h3>￥ 119.8</h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/qingyangxifashui">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/qingyangxifashui">
             <div><img src="../components/qingyangxifashui/pic.jpg" alt="" /></div>
             <span>清扬洗发水露洗头膏水去屑止痒控油持久留香旗舰店官方旗舰</span>
             <span>青城虎爷专卖店</span>
@@ -136,8 +136,8 @@
               >原价：
               <h3>￥  27.90-79.90   </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/xiangshuimuyulu">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/xiangshuimuyulu">
             <div><img src="../components/xiangshuimuyulu/xiangshuimuyulu.jpg" alt="" /></div>
             <span>LG菲诗小铺浪漫邂逅香水沐浴露500ml持久留香滋润保湿男女通用</span>
             <span>青城虎爷专卖店</span>
@@ -145,8 +145,8 @@
               >原价：
               <h3>￥ 35.00   </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/shentimoshagao">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/shentimoshagao">
             <div><img src="../components/shentimoshagao/shentimoshagao.jpg" alt="" /></div>
             <span>日本Oh Baby身体磨砂膏 去鸡皮死皮去角质蚕丝精华全身磨砂570g</span>
             <span>青城虎爷专卖店</span>
@@ -154,8 +154,8 @@
               >原价：
               <h3>￥ 125.00   </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/fangtuofaxifashui">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/fangtuofaxifashui">
             <div><img src="../components/fangtuofaxifashui/fangtuofaxifashui.jpg" alt="" /></div>
             <span>【直营】韩国进口RYO/吕黄吕防脱乌发固发滋养洗发水 500毫升*3瓶</span>
             <span>青城虎爷专卖店</span>
@@ -163,7 +163,7 @@
               >原价：
               <h3>￥ 185.00   </h3></span
             >
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="spacial_area_modren">
@@ -173,7 +173,7 @@
           <a href="">更多 >></a>
         </div>
         <div class="spacial_area_life_info">
-          <a class="spacial_area_life_info_goods" href="/shuixingzhijiayou">
+          <router-link class="spacial_area_life_info_goods" to="/shuixingzhijiayou">
             <div><img src="../components/shuixingzhijiayou/shuixingzhijiayou.jpg" alt="" /></div>
             <span>可撕拉指甲油女持久免烤快干网红款纯色磨砂哑光无毒无味孕妇可用</span>
             <span>青城虎爷专卖店</span>
@@ -181,8 +181,8 @@
               >原价：
               <h3>￥ 21.90-36.90   </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/maoyanjiao">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/maoyanjiao">
             <div><img src="../components/maoyanjiao/maoyanjiao.jpg" alt="" /></div>
             <span>SATKI美甲银河猫眼胶宽猫眼新款光疗可卸指甲油胶星空陨石持久胶</span>
             <span>青城虎爷专卖店</span>
@@ -190,8 +190,8 @@
               >原价：
               <h3>￥ 19.80-119.00    </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/mantianxingshoubiao">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/mantianxingshoubiao">
             <div><img src="../components/mantianxingshoubiao/mantianxingshoubiao.jpg" alt="" /></div>
             <span>Armani阿玛尼满天星女表官方正品时尚潮镶钻星空女士手表AR11091</span>
             <span>青城虎爷专卖店</span>
@@ -199,8 +199,8 @@
               >原价：
               <h3>￥ 2990.00 </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/huazhuangshua">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/huazhuangshua">
             <div><img src="../components/huazhuangshua/huazhuangshua.jpg" alt="" /></div>
             <span>【升级版】supredo尊美堂日常妆容化妆套刷6支装/专业套刷12支装</span>
             <span>青城虎爷专卖店</span>
@@ -208,8 +208,8 @@
               >原价：
               <h3>￥ 149.00-249.00 </h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/dwshoubiao">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/dwshoubiao">
             <div><img src="../components/dwshoubiao/dwshoubiao.jpg" alt="" /></div>
             <span>Daniel Wellington男女dw手表黑色DW手表情侣对表</span>
             <span>青城虎爷专卖店</span>
@@ -217,8 +217,8 @@
               >原价：
               <h3>￥ 2799.00</h3></span
             >
-          </a>
-          <a class="spacial_area_life_info_goods" href="/dwshouzhuo">
+          </router-link>
+          <router-link class="spacial_area_life_info_goods" to="/dwshouzhuo">
             <div><img src="../components/dwshouzhuo/dwshouzhuo.jpg" alt="" /></div>
             <span>Danielwellington丹尼尔惠灵顿dw情侣手镯女 男士简约玫瑰金手环</span>
             <span>青城虎爷专卖店</span>
@@ -226,7 +226,7 @@
               >原价：
               <h3>￥ 589.00 </h3></span
             >
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -248,7 +248,7 @@
           <div class="money_miaosha">
             <span>￥2950.00</span><span>1天5秒</span>
           </div>
-          <a href="/tangbobaiqibao">立刻秒杀</a>
+          <router-link to="/tangbobaiqibao">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -261,7 +261,7 @@
           <div class="money_miaosha">
             <span>￥4500.00</span><span>1天5秒</span>
           </div>
-          <a href="/kouchi">立刻秒杀</a>
+          <router-link to="/kouchi">立刻秒杀</router-link>
         </div>
         <div class="discount_info_goods">
           <div class="discount_info_goods_img">
@@ -274,7 +274,7 @@
           <div class="money_miaosha">
             <span>￥ 278.00</span><span>1天5秒</span>
           </div>
-          <a href="/yuganyou">立刻秒杀</a>
+          <router-link to="/yuganyou">立刻秒杀</router-link>
         </div>
       </div>
     </div>
@@ -288,7 +288,7 @@
             <a href="">更多 >></a>
           </div>
           <div class="you_like_left_goods">
-            <a class="you_like_left_goods_info" href="/feilekuzi">
+            <router-link class="you_like_left_goods_info" to="/feilekuzi">
               <div><img src="../components/feilekuzi/feilekuzi.jpg" alt="" /></div>
               <span class="you_like_left_goods_info_title"
                 >FUSION斐乐运动裤男</span
@@ -300,8 +300,8 @@
                 >原价：
                 <h3>￥ 569.00</h3></span
               >
-            </a>
-            <a class="you_like_left_goods_info" href="/theroxizhuang">
+            </router-link>
+            <router-link class="you_like_left_goods_info" to="/theroxizhuang">
               <div><img src="../components/theroxizhuang/theroxizhuang.jpg" alt="" /></div>
               <span class="you_like_left_goods_info_title"
                 >2019秋冬新品男装</span
@@ -313,8 +313,8 @@
                 >原价：
                 <h3>￥  2950.00</h3></span
               >
-            </a>
-            <a class="you_like_left_goods_info" href="/guanjunduanxiu">
+            </router-link>
+            <router-link class="you_like_left_goods_info" to="/guanjunduanxiu">
               <div><img src="../components/guanjunduanxiu/guanjunduanxiu.jpg" alt="" /></div>
               <span class="you_like_left_goods_info_title"
                 >冠军短袖 </span
@@ -326,8 +326,8 @@
                 >原价：
                 <h3>￥  382.00</h3></span
               >
-            </a>
-            <a class="you_like_left_goods_info" href="/liweisiniuzaiyi">
+            </router-link>
+            <router-link class="you_like_left_goods_info" to="/liweisiniuzaiyi">
               <div><img src="../components/liweisiniuzaiyi/liweisiniuzaiyi.jpg" alt="" /></div>
               <span class="you_like_left_goods_info_title"
                 >李维斯男士新款休闲牛仔长袖 </span
@@ -339,7 +339,7 @@
                 >原价：
                 <h3>￥599.00</h3></span
               >
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
