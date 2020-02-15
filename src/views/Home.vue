@@ -6,62 +6,62 @@
         <span>新春上新 · NEW</span>
         <span>SPRING</span>
         <span>新春满199减60</span>
-        <el-button type="danger" round plain size="medium">查看详情</el-button>
+        <el-button type="danger" round plain size="medium"> <router-link to='discount'> 查看详情</router-link> </el-button>
       </div>
     </div>
     <!-- 下方商品部分 -->
     <div class="shop_info">
-      <a href="" class="left_shop_info">
+      <router-link to="/" class="left_shop_info">
         <span>新品</span>
         <span>品牌精选新品 </span>
         <span>每日新品首发 </span>
         <img src="../assets/image/Home/erji.png" alt="" />
-      </a>
+      </router-link>
       <div class="flex_text">
-        <a href="" class="right_shop_info">
+        <router-link to="discount" class="right_shop_info">
           <div>
             <span style="color:#30b985">大牌服装</span>
             <span>潮流服饰配搭 </span>
             <span>件件必抢 </span>
           </div>
           <img src="../assets/image/Home/kuzi.png" alt="" />
-        </a>
-        <a href="" class="right_shop_info">
+        </router-link>
+        <router-link to="recommend" class="right_shop_info">
           <div>
             <span style="color:#9d0da1">优惠洗护</span>
             <span>正品认购 </span>
             <span>精品精选 </span>
           </div>
-          <img src="../assets/image/Home/muyulu.png" alt="" /> </a
-        ><a href="" class="right_shop_info">
+          <img src="../assets/image/Home/muyulu.png" alt="" /> </router-link
+        ><router-link to="discount" class="right_shop_info">
           <div>
             <span style="color:#18afae">开学特价</span>
             <span>正品潮牌 </span>
             <span>件件必抢 </span>
           </div>
-          <img src="../assets/image/Home/shubao.png" alt="" /> </a
-        ><a href="" class="right_shop_info">
+          <img src="../assets/image/Home/shubao.png" alt="" /> </router-link
+        ><router-link to="hot" class="right_shop_info">
           <div>
             <span style="color:#ff5400">首饰单品</span>
             <span>精美正品饰品 </span>
             <span>送礼首选 </span>
           </div>
-          <img src="../assets/image/Home/xianglian.png" alt="" /> </a
-        ><a href="" class="right_shop_info">
+          <img src="../assets/image/Home/xianglian.png" alt="" /> </router-link
+        ><router-link to="life" class="right_shop_info">
           <div>
             <span style="color:#0d669a">家具摆饰</span>
             <span>舒适家具人生 </span>
             <span>全程配送 </span>
           </div>
-          <img src="../assets/image/Home/zhuozi.png" alt="" /> </a
-        ><a href="" class="right_shop_info">
+          <img src="../assets/image/Home/zhuozi.png" alt="" /> </router-link
+        ><router-link to="hot" class="right_shop_info">
           <div>
             <span style="color:#ffa902">购镜配镜</span>
             <span>海量时尚镜框 </span>
             <span>件件精品 </span>
           </div>
           <img src="../assets/image/Home/yanjing.png" alt="" />
-        </a>
+        </router-link>
       </div>
       <img src="../assets/image/Home/bbji.png" class="bbji" />
     </div>

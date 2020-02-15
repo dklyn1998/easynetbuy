@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-container direction="vertical" >
+    <el-container direction="vertical">
       <el-header height="195px">
         <el-row
           :gutter="20"
@@ -13,9 +13,7 @@
             <el-link :underline="false" type="info" href="/">首页</el-link>
           </el-col>
           <el-col :span="3.5" class="col_list">
-            <router-link  to="about" class="routercolor"
-              >关于我们</router-link
-            >
+            <router-link to="about" class="routercolor">关于我们</router-link>
           </el-col>
           <el-col :span="3.5" class="col_list">
             <el-link
@@ -51,41 +49,85 @@
           </el-col>
         </el-row>
         <el-dialog title="登录" :visible.sync="dialogLogVisible" center>
-          <el-form :model="log">
-            <el-form-item label="账号" :label-width="formLabelWidth">
-              <el-input v-model="log.username" autocomplete="off"></el-input>
+          <el-form :model="log" :rules="rulesLog" ref="log">
+            <el-form-item
+              label="账号"
+              :label-width="formLabelWidth"
+              prop="username"
+            >
+              <el-input
+                v-model="log.username"
+                autocomplete="off"
+                placeholder="请输入账号"
+              ></el-input>
             </el-form-item>
-            <el-form-item label="密码" :label-width="formLabelWidth">
-              <el-input v-model="log.password" autocomplete="off"></el-input>
+            <el-form-item
+              label="密码"
+              :label-width="formLabelWidth"
+              prop="password"
+            >
+              <el-input
+                v-model="log.password"
+                autocomplete="off"
+                placeholder="请输入密码"
+              ></el-input>
             </el-form-item>
           </el-form>
           <div slot="footer" class="dialog-footer">
             <el-button @click="dialogLogVisible = false">取 消</el-button>
-            <el-button type="primary" @click="login"
-              >登 录</el-button
-            >
+            <el-button type="primary" @click="login">登 录</el-button>
           </div>
         </el-dialog>
         <el-dialog title="注册" :visible.sync="dialogRegVisible" center>
-          <el-form :model="reg">
-            <el-form-item label="账号" :label-width="formLabelWidth">
-              <el-input v-model="reg.username" autocomplete="off"></el-input>
+          <el-form :model="reg" :rules="rulesReg">
+            <el-form-item
+              label="账号"
+              :label-width="formLabelWidth"
+              prop="username"
+            >
+              <el-input
+                v-model="reg.username"
+                autocomplete="off"
+                placeholder="请输入账号"
+              ></el-input>
             </el-form-item>
-            <el-form-item label="密码" :label-width="formLabelWidth">
-              <el-input v-model="reg.password" autocomplete="off"></el-input>
+            <el-form-item
+              label="密码"
+              :label-width="formLabelWidth"
+              prop="password"
+            >
+              <el-input
+                v-model="reg.password"
+                autocomplete="off"
+                placeholder="请输入密碼"
+              ></el-input>
             </el-form-item>
-            <el-form-item label="邮箱" :label-width="formLabelWidth">
-              <el-input v-model="reg.email" autocomplete="off"></el-input>
+            <el-form-item
+              label="邮箱"
+              :label-width="formLabelWidth"
+              prop="email"
+            >
+              <el-input
+                v-model="reg.email"
+                autocomplete="off"
+                placeholder="请输入郵箱"
+              ></el-input>
             </el-form-item>
-            <el-form-item label="爱好" :label-width="formLabelWidth">
-              <el-input v-model="reg.hobbies" autocomplete="off"></el-input>
+            <el-form-item
+              label="爱好"
+              :label-width="formLabelWidth"
+              prop="hobby"
+            >
+              <el-input
+                v-model="reg.hobbies"
+                autocomplete="off"
+                placeholder="请输愛好"
+              ></el-input>
             </el-form-item>
           </el-form>
           <div slot="footer" class="dialog-footer">
             <el-button @click="dialogRegVisible = false">取 消</el-button>
-            <el-button type="primary" @click="regclick"
-              >注 册</el-button
-            >
+            <el-button type="primary" @click="regclick">注 册</el-button>
           </div>
         </el-dialog>
         <el-dialog
@@ -135,7 +177,11 @@
               clearable
             >
             </el-input>
-            <el-button type="danger" round class="button_search" @click="serachItem"
+            <el-button
+              type="danger"
+              round
+              class="button_search"
+              @click="serachItem"
               >搜索</el-button
             >
           </el-col>
@@ -316,42 +362,59 @@ export default {
         email: "",
         hobbies: ""
       },
-      dialogcartVisible: false,
-      dialogbookVisible: false
+      rulesLog: {
+        username: [
+          { required: true, message: "請輸入合法賬號", trigger: "blur" }
+        ],
+        password: [{ required: true, message: "請輸入密碼", trigger: "blur" }]
+      },
+      rulesReg: {
+        username: [{ required: true, message: "請輸入賬號", trigger: "blur" }],
+        password: [{ required: true, message: "請輸入密碼", trigger: "blur" }],
+        email: [
+          { required: true, message: "请输入邮箱地址", trigger: "blur" },
+          {
+            type: "email",
+            message: "请输入正确的邮箱地址",
+            trigger: ["blur", "change"]
+          }
+        ],
+        hobby: [{ message: "請輸入愛好", trigger: "blur" }]
+      }
     };
   },
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
     },
-    login(){
+    login() {
       this.$message({
-          message: '登录成功',
-          type: 'success'
-        });
-        this.dialogLogVisible=false
+        message: "登录成功",
+        type: "success"
+      });
+      this.dialogLogVisible = false;
     },
-    regclick(){
+    regclick() {
       this.$message({
-          message: '注册成功',
-          type: 'success'
-        });
-        this.dialogRegVisible=false
+        message: "注册成功",
+        type: "success"
+      });
+      this.dialogRegVisible = false;
     },
-    serachItem(){
+    serachItem() {
       this.$message({
-          message: '搜索成功~！',
-          type: 'success'
-        });
-    },
+        message: "搜索成功~！",
+        type: "success"
+      });
+    }
   }
-}
+};
 </script>
 
 <style scoped>
-  .routercolor{
-    color: gray;
-  }
+.routercolor {
+  color: gray;
+}
 .el-header {
   padding: 0 10px;
 }

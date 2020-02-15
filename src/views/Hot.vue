@@ -5,7 +5,7 @@
       <div class="banner_text">
         <span>INS 潮流前线</span>
         <span>积分优惠享不停</span>
-        <el-button type="danger" round plain size="medium">查看详情</el-button>
+        <el-button type="danger" round plain size="medium"><router-link to='life'> 查看详情</router-link> </el-button>
       </div>
     </div>
     <!-- 精选品牌 -->
