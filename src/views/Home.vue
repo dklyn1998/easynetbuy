@@ -742,13 +742,13 @@ export default {};
     }
   }
 }
-.you_like_right{
+// .you_like_right{
   // flex: 1;
   // width: 80%;
   // img{
   //   width: 100%;
   // }
-}
+// }
 }
 
 // 下方信息栏
